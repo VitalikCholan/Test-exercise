@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2em auto;
+    padding: 2em;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 15%;
+    box-shadow: 0 0 3px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+    aspect-ratio: 5 / 3;
+}
