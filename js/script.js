@@ -1,5 +1,5 @@
 // Даний Event Listener очікує на повну загрузку DOM перед виконанням вказаної функції
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', e => {
     // Отримую елемент 'analyzeButton' з DOM
     const analyzeButton = document.getElementById('analyzeButton');
     // Додаю подію 'click' для кнопки 'Analyze', цим самим активовую функцію 'handleFile' під час кліку
